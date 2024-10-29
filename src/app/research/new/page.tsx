@@ -1,5 +1,6 @@
 import { BasicLayout } from "@/components/layout";
 import { Box, Button, TextField, Typography, Card } from "@mui/material";
+import ImageCrop from "./_components/image-crop";
 
 export default function ResearchNew() {
   return (
@@ -52,6 +53,8 @@ export default function ResearchNew() {
             variant="outlined"
             fullWidth
           />
+          <ImageCrop />
+
           <label htmlFor="upload-button">
             <input
               id="upload-button"
